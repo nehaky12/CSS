@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    
+</head>
+<body>
+    <center class="jumbotron commonCssColors">
+        <h1>CSS FONT</h1>
+    </center>
+    <hr>
+
+    <section class="cssFont">
+        <h2>CSS FONT EXAMPLE</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam fugiat amet voluptate, officiis, beatae asperiores quis praesentium voluptas ab et nemo repellendus, totam iure ex tempore deleniti reprehenderit impedit recusandae</p>
+    </section>
+
+	 <center class="jumbotron commonCssColors">
+        <h1>CSS TEXT</h1>
+    </center>
+    <hr>
+
+    <section class="cssText">
+        <h2>CSS TEXT EXAMPLE</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam fugiat amet voluptate, officiis, beatae 	asperiores quis praesentium voluptas ab et nemo repellendus, totam iure ex tempore deleniti reprehenderit 	impedit recusandae</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deleniti itaque nobis, reprehenderit quam 	tempora necessitatibus alias natus repellat soluta cupiditate quo omnis sed nostrum delectus labore 	voluptas, architecto nisi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab in itaque magni omnis obcaecati sunt et at? 	Suscipit esse corrupti quas facere dolorum ex, animi quidem deserunt dolore dolor vitae.</p>
+    </section>
+</body>
+</html>

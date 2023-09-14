@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+         h3{
+            background-color:antiquewhite;
+            color:black
+         }
+         #ramesh,#naresh{
+            background-color:chocolate;
+         }
+         #suresh{
+            background-color: aqua;
+         } 
+         div.cssDemoClass{
+            background-color: cadetblue;
+            color:white;
+            padding:20px;
+            margin:20px;
+         }
+        [href]{
+            background-color: gray;
+            color:lightgray;
+            padding:20px;
+            margin:20px;
+         }
+         [href="p1.html"]{
+            background-color: lightseagreen;
+           
+         }
+
+    </style>
+</head>
+<body>
+    <h1>HOW TO DECLARE A CSS..!</h1>
+    <ol>
+        <li>Inline CSS(using style attribute)</li>
+        <li>Internal CSS(using style tag)</li>
+        <li>External CSS(using .css extension)</li>
+    </ol>
+
+    <hr>
+
+    <h1>Inline CSS(using style attribute) Example</h1>
+    <h2 style="background-color: rgb(201, 102, 102); color:blue;">THIS IS HEAD TAG..!</h2>
+    <h2 style="background-color: rgb(201, 102, 102); color:blue;">THIS IS HEAD TAG..!</h2>
+    <h2 style="background-color: green; color:blue;">THIS IS HEAD TAG..!</h2>
+
+    <hr>
+    <h1>Internal CSS (using style tag) Example..!</h1>
+    <hr>
+
+    <h3>CSS SELECTOR (how to call an element under style tag..!)</h3>
+    <ol>
+        <li>Using Element name</li>
+        <li>Using Element ID</li>
+        <li>Using Class</li>
+        <li>Using Attribute</li>
+        <li>Using Attribute and Its value</li>
+    </ol>
+    <hr>
+
+    <h1>Using Element name Example..!</h1>
+    <hr>
+    <h3 name="">This is Internal CSS Example..!</h3>
+    <h3>This is Internal CSS Example..!</h3>
+    <h3>This is Internal CSS Example..!</h3>
+
+    <hr>
+    <h1>Using an Element ID Example..!</h1>
+    <hr>
+
+    <h3 id="ramesh">This is Internal CSS Example..!</h3>
+    <h3 id="suresh">This is Internal CSS Example..!</h3>
+    <h3 id="naresh">This is Internal CSS Example..!</h3>
+
+    <hr>
+    <h1>Using Class Example..!</h1>
+    <hr>
+
+    <section class="cssDemoClass">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat voluptatem ullam accusamus illo, at itaque eius, eum molestiae ducimus iure eveniet. Pariatur mollitia odio obcaecati ab, unde facilis commodi?</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aliquid magni alias vel quo! Est deserunt nihil eligendi assumenda, nobis qui exercitationem at praesentium odit obcaecati quidem ea accusantium dolorem?
+    </section>
+    <div class="cssDemoClass">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil non repudiandae quaerat reprehenderit dolorem, perferendis fugit excepturi quae incidunt alias accusantium ducimus mollitia? Aperiam atque est error molestias commodi Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolor sequi ipsam doloremque, ad aspernatur quod quisquam ut vel, fuga, molestias in porro? Porro nobis nam nulla! Sapiente, optio nam?</p>
+    </div>
+    <section class="cssDemoClass">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero omnis molestias in commodi dignissimos quis ipsum possimus reprehenderit aspernatur aut. Facilis ullam reprehenderit quibusdam blanditiis eos nam dolore ex quae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit rem eaque nihil sequi nisi modi, doloribus aliquam, temporibus voluptates culpa architecto asperiores maiores, molestiae libero vero sunt reiciendis quod consequuntur.</p>
+    </section>
+
+    <hr>
+    <h1>Using Attribute Example..!</h1>
+    <hr>
+
+    <a href="#">ANCHOR-1</a>
+
+    <hr>
+    <h1>Using Attribute and Its value example..!</h1>
+    <hr>
+    
+    <a href="p1.html">ANCHOR-2</a>
+
+</body>
+</html>
